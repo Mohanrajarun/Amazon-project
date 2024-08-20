@@ -357,6 +357,7 @@ input, select, button {
 
 .hamburger{
     display: none;
+    padding-right: 15px;
 }
 /* .body{
     position: relative;
