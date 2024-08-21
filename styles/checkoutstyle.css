@@ -250,9 +250,7 @@
     padding: 15px 0;
 
 }
-.orders-list{
-    width: 23rem;
-}
+
 
 .summary-heading{
     margin-bottom: 20px;
@@ -288,6 +286,9 @@
     display: flex;
     justify-content: center;
 }
+.orders-list{
+    gap: 22rem;
+}
 .item{
     display: flex;
     flex-direction: column;
@@ -299,6 +300,9 @@
     /* width: 400px; */
     /* background-color: red; */
     justify-content: space-between;
+    max-width: 500px;
+    flex: 1;
+    gap: 11rem;
     /* gap: 20px; */
     
 }
