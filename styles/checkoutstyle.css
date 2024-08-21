@@ -251,7 +251,7 @@
 
 }
 .orders-list{
-    padding-right: 10rem;
+    width: 23rem;
 }
 
 .summary-heading{
@@ -280,13 +280,27 @@
     font-size: 15px;
     
 }
-.orders-list,
-.dollers{
+.orders-list
+{
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 .btn{
     display: flex;
     justify-content: center;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    
+}
+.items3{
+    display: flex;
+    flex-direction: row;
+    /* width: 400px; */
+    /* background-color: red; */
+    justify-content: space-between;
+    /* gap: 20px; */
+    
 }
 
 @media screen and (max-width:1200px) {
